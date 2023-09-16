@@ -14,7 +14,6 @@ using namespace std;
  */
 void signal_callback_handler(int signum) {
   cout << "You have pressed Control-C" << endl;
-
 }
 int main() {
   // Register signal and signal handler

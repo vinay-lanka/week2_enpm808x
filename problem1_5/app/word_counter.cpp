@@ -4,8 +4,9 @@
 #include <map>
 
 /**
- * @brief Map for storing the words entered in the standard input and the number of occourences of the word
- * 
+ * @brief Map for storing the words entered in the standard input and the number
+ * of occourences of the word
+ *
  */
 std::map<std::string, int> word_occourence_map;
 int total_count;
@@ -13,8 +14,9 @@ int total_count;
 int main() {
   std::string word;
   /**
-   * @brief While loop that contains the logic to find the word in the map or append it with a first occourence if it doesn't.
-   * 
+   * @brief While loop that contains the logic to find the word in the map or
+   * append it with a first occourence if it doesn't.
+   *
    */
   while (std::getline(std::cin, word)) {
     total_count++;
