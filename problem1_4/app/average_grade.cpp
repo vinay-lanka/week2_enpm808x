@@ -61,7 +61,7 @@ string grade_tracker::compute_average() {
 
 int main() {
   grade_tracker tracker;
-  ifstream input_file("./information.txt");
+  ifstream input_file("./data/information.txt");
   string input_string;
   while (getline(input_file, input_string, '\n')) {
     stringstream ss(input_string);

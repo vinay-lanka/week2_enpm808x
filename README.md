@@ -51,7 +51,7 @@ Can find the built liblib1_1.so file in `./build/problem1_1/liblib1_1.so`
 Program to find the average of numbers stored in a std::vector<double>. Used templates and made a function to find the average of a vector passed to it.
 
 To run - <br>
-`./build/problem1_2/vector_average`
+`$ ./build/problem1_2/vector_average`
 
 ## Problem 1-3
 
@@ -60,18 +60,23 @@ Program to catch the SIGINT signal using the signal handler callback function. P
 To kill this program, run `pkill control_handler` as pkill with the name of executable can kill the process.
 
 To run - <br>
-`./build/problem1_3/control_handler`
+`$ ./build/problem1_3/control_handler`
 
 ## Problem 1-4
 
 Program to calculate the average grade of a class using a grade_tracker class. Uses class methods to insert data and compute the average alphabet grade of the class.
 
 To run - <br>
-`./build/problem1_4/average_grade`
+Make sure you're in the top level directory which contains the data/information.txt path. <br>
+Run - 
+`$ ./build/problem1_4/average_grade`
 
 ## Problem 1-5
 
 Program to calculate the occourence of each word given via stdin. Uses maps with words as keys and increments values based on occourence. Prints the total number and occourence of each word.
 
 To run - <br>
-`./build/problem1_4/word_counter`
+`$ ./build/problem1_4/word_counter`
+
+Usage - 
+Keep entering the words in the console. When you're done, hit Ctrl+D(EOF) to get the output mentioned above.

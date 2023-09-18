@@ -1,7 +1,4 @@
 #include <signal.h>
-#include <unistd.h>
-
-#include <cstdlib>
 #include <iostream>
 
 using namespace std;
@@ -19,7 +16,7 @@ int main() {
   // Register signal and signal handler
   signal(SIGINT, signal_callback_handler);
   while (true) {
-    sleep(1);
+    continue;
   }
   return EXIT_SUCCESS;
 }
