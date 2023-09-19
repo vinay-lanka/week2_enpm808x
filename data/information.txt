@@ -1,4 +1,0 @@
-Vinay,A
-Vasanth,B
-Vineeth,C
-Student 1,A
