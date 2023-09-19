@@ -6,14 +6,15 @@
 
 ## Setup via command line
 
-Ensure you're in the project's working directory (week_2)
+Ensure you're in the project's working directory (week_2). <br>
+Make sure doxygen is installed or install it with your package manager.
 
 ```bash
 # Create the make files using cmake
 $ cmake -S ./ -B build/
 
 # If building with cmake
-$ cmake --build /build
+$ cmake --build build/
 
 #If you want to generate the compile_json file with bear
 $ bear -- cmake --build build/ --clean-first
